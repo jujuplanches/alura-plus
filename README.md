@@ -30,7 +30,7 @@ O objetivo foi praticar estruturação de páginas, estilização com CSS e orga
 
 Você pode acessar o projeto pelo link abaixo:
 
-👉 https:alura-plus-67yz.vercel.app
+👉 [Clique aqui para acessar o projeto](https://alura-plus-67yz.vercel.app)
 
 ## Autora
 
