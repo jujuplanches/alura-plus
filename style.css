@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --vermelho: #EC2F46;
+    --cor-de-fundo: #00030C;
+    --fonte-titulo:"Inter", sans-serif;
+    --cor-da-descricao: #F9F9F9;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+.fundo{
+    background-image: url("img/Background.png");
+    background-size: cover;
+    background-position: right center;
+    height: 100vh;
+
+
+
+}
+
+.titulo_principal{
+    font-family: var(--fonte-titulo);
+    font-size: 28px ;
+    padding-bottom: 5px;
+}
+
+.unico{
+    display: flex;
+    align-items: center;
+    padding-left: 198px;
+}
+
+.logo{
+     max-width: 348px;
+    width: 100%;
+    height: auto;
+    padding-left: 50px;
+
+}
+
+.botoes{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    gap: 15px;
+    text-align: center;
+}
+
+.botao1{
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 16px;
+    color: var(--branco-principal);
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 16px;
+   
+}
+
+.botao2{
+    border: 2px solid;
+    border-radius: 5px   ;
+    padding: 16px;
+    text-decoration: none;
+    font-family: var(--fonte-titulo);
+    font-size: 16px;
+    color: var(--branco-principal);
+}
+
+.desing{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;                 /* espaço entre título, imagem e botões */
+    max-width: 600px;
+    margin-left: 54px;
+    padding-top: 155px;
+
+}
+
+.aviso{
+    color: var(--cinza-secundario);
+    font-size: 12px;
+    font-family: var(--fonte-titulo);
+}
+
+.segunda_secao{
+    margin-left: 165px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    gap: 69px;
+    font-family: var(--fonte-titulo);
+}
+
+.textos{
+    display: flex;
+    flex-direction: column;
+    margin-right:120px ;
+}
+
+.subtitulo{
+    font-size: 48px;
+    color: var(--branco-principal);
+    display: flex;
+    padding-bottom: 8px;
+}
+
+.descricao{
+    font-size: 16px;
+    color: var(--cor-da-descricao);
+}
+
+.sessao3{
+    display: flex;
+    align-items: center;
+    margin-right: 116px;
+    margin-left: 120px;
+}
+
+.descricao_telas{
+    font-size: 16px;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-da-descricao);
+    margin-bottom:32px ;
+}
+
+.botao3{
+    color: var(--branco-principal);
+    text-decoration: none;
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 16px;
+    width: 160px;
+    font-size: 16px;
+}
+
+.sessao4{
+    margin-left: 141px;
+    margin-top: 160px;
+    display: flex;
+        align-items: center;
+
+}
+
+.textos_sessao4{
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_sessao4{
+    font-size: 48px;
+    color: var(--branco-principal);
+    font-family: var(--fonte-titulo);
+    padding-bottom: 8px;
+}
+
+.descricao_sessao4{
+    font-size: 16px;
+    font-family: var(--fonte-titulo);
+    color: var(--cor-da-descricao);
+}
+
+.ultima_sessao{
+    margin-top: 240px;
+    margin-left: 100px;
+}
+
+.titulo_ultima_sessao{
+    padding-left: 228px;
+    font-size: 48px;
+    color: var(--branco-principal);
+    padding-bottom: 48px;
+}
+
+.imagens{
+    padding-left: 158px;
+    display: flex;
+    
+}
+
+.img_nome{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    font-size: 22px;
+    color: var(--branco-principal);
+    font-family: var(--fonte-titulo);
+}
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    text-align: center;
+    align-items: center;
+    margin-top: 145px;
+    margin-bottom: 100px;
+}
+
+.logo_alura{
+    width: 102px;
+    height: 35.28px;
+    padding-bottom: 40px;
+}
+
+.informacao1{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 24px;
+    gap: 16px;
+
+}
+
+.informacao2{
+    padding-bottom: 24px;
+    color: #C0C0C0;
+}
+
+.informacao3{
+    color: #C0C0C0;
+}
